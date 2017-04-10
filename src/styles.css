@@ -1,0 +1,291 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #011c2f !important;
+    margin-bottom: 60px;
+}
+
+/* Tipografia */
+
+h5{
+    color: #ffffff !important;
+    margin-bottom: 20px;
+}
+/* navbar */
+#navbar-wise {
+    background-color: #ffffff;
+    border-bottom: 2px solid #f57921;
+    margin-bottom: 20px;
+}
+ul.navbar-nav.mr-auto{
+    display: block;
+    margin-left: auto;
+    margin-right: initial !important;
+}
+ul.navbar-nav.mr-auto li.nav-item.active {
+    background: #011c2f;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+/* botoes */
+a.nav-link.sair {
+    color: #fff !important;
+}
+.btn-wise{
+    background-color: #011c2f;
+    color: #ffffff;
+    cursor: pointer;
+}
+.form-control:focus {
+    color: #464a4c;
+    background-color: #fff;
+    border-color: #f57921 !important;
+    outline: none;
+}
+
+/*tab  course component*/
+
+ul.nav.nav-tabs.justify-content-start {
+    width: 30% !important;
+    display: block !important;
+    float: left !important;
+}
+li.nav-item {
+    background: #fff;
+    margin-bottom: 5px !important;
+    border-radius: 3px !important;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #f57921 !important;
+    background-color: #fff;
+    border-color: #ddd #ddd #fff;
+    font-weight: 700;
+}
+.nav-link {
+    color: #011c2f !important;
+    font-weight: 500;
+}
+
+.breadcrumb {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+}
+.breadcrumb-item a {
+    color: #f57921;
+    font-weight: 500;
+}
+.sumary-course {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.sumary-item {
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    margin: 5px auto;
+    padding: 3px 15px;
+    border-radius: 3px;
+    color: #011c2f;
+    font-weight: 500;
+}
+.sumary-item.active {
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    margin: 5px auto;
+    padding: 3px 15px;
+    border-radius: 3px;
+    color: #f57921;
+    font-weight: 700;
+}
+.progress-bar {
+   background-color: #f57921;
+}
+.course-content {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.breadcrumb {
+    margin-bottom: 0rem !important;
+}
+.title-section{
+    color: #011c2f !important;
+    margin: 15px auto;
+}
+
+/* Course */
+
+ul.nav.nav-tabs.justify-content-start {
+    width: 30% !important;
+    display: block !important;
+    float: left !important;
+}
+img.img-intro-curse.img-responsive {
+    max-width: 100%;
+    display: block;
+    float: left;
+}
+.course-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+.course-content .col-md-8.col-xs-12 {
+    padding: 0;
+}
+.title-module{
+    font-weight: 700;
+    margin: 15px 20px;
+}
+.description {
+    padding: 0 20px;
+}
+.course-intro{
+    float: right;
+}
+.buttons-control{
+    text-align: right;
+}
+.btn-modal {
+    background: #f57921 !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #ffffff;
+  text-align: right;
+  margin-top: 1em;
+}
+i.fa.fa-bars {
+    font-size: 25px;
+    color: #f57921;
+}
+.back-test {
+    background: #fff;
+    padding: 5px 5px;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+}
+.col-md-12.col-xs-12.bread-component {
+    margin-bottom: 20px;
+}
+p.list-descript {
+    font-size: 14px;
+}
+.progress {
+    background-color: #000000 !important;
+}
+hr.white {
+    border-color: #ffffff;
+}
+
+/* Devices */
+
+@media (min-width: 769px){
+    .modal-dialog {
+        max-width: 700px !important;
+        margin: 30px auto;
+    }
+    #body {
+        margin-bottom: 60px;
+        min-height: 500px;
+    }
+    .break{
+        display: none;
+    }
+    .progresso{
+        margin: 15px auto !important;
+    }
+    .bar1{
+        display: block;
+    }
+    .bar2{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #body {
+        margin-bottom: 60px;
+        min-height: 370px;
+    }
+    .footer {
+        position: initial;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        line-height: 60px; /* Vertically center the text there */
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .description {
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+    .container.logo-mobile {
+        margin: 0;
+    }
+    .col-md-4.col-sm-6.col-xs-12.item-course {
+        margin-bottom: 10px;
+    }
+    .course-content {
+        background: #fff;
+        margin-top: 30px;
+        border-radius: 3px;
+        margin: 15px;
+        padding-bottom: 20px;
+    }
+    .breadcrumb{
+        display: none;
+    }
+    button.btn.btn-md.btn-wise.course-intro {
+        position: relative;
+        right: 10px;
+        font-size: 14px;
+    }
+    .title-module {
+        font-weight: 700;
+        margin: 15px 10px;
+        font-size: 19px;
+    }
+    .bread-component{
+        display: none;
+    }
+    button.btn.btn-primary.btn-modal {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .bar1{
+        display: none;
+    }
+    .bar2{
+        display: block;
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width:  768px) { 
+    .item-course {
+        max-width: 48% !important;
+        display: block !important;
+        float: left !important;
+        margin: auto 1% !important;
+        margin-bottom: 20px !important;
+    }
+ }

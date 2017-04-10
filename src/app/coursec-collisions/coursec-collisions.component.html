@@ -1,0 +1,97 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-xs-12 bread-component">      
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/list" routerLinkActive="active">Lista de cursos</a></li>
+        <li class="breadcrumb-item active">Módulo - Cinto de segurança</li>
+      </ol>
+    </div>
+    <div class="col-md-3 col-xs-12 course-general-left">  
+      <h5><i class="fa fa-list-ol" aria-hidden="true"></i> Sumário</h5>
+      <a class="sumary-item" routerLink="/course/introduction" routerLinkActive="active">1 - Introdução</a>
+      <a class="sumary-item" routerLink="/course/inspection" routerLinkActive="active">2 - Inspeção</a>
+      <a class="sumary-item active" routerLink="/course/collisions" routerLinkActive="active">3 - Colisões</a>
+      <div class="bar1">
+        <h5 class="progresso"><i class="fa fa-rocket" aria-hidden="true"></i> Progresso</h5>
+        <p><ngb-progressbar type="success" [value]="66">66%</ngb-progressbar></p>
+      </div>
+    </div>
+    <div class="col-md-9 col-xs-12">
+      <div class="back-test">
+        <h4 class="title-module">Colisões</h4>
+        <hr>
+        <p class="description">
+          Quem não usa cinto... está desprotegido. Solto no interior do veículo, o corpo sofre um impacto de até mil kilos, o que pode provocar fraturas e deslocamentos fatais ou irreversíveis. </p>
+        <p class="description">
+          <strong> Nessa situação, vão acontecer três colisões, saiba mais:</strong>
+        </p>        
+        <button type="button" class="btn btn-primary btn-modal modal-1" data-toggle="modal" data-target="#myModal">
+         Primeira Colisão
+        </button>        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Primeira Colisão</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                
+              </div>
+              <div class="modal-body">
+                <p>Veículo choca-se contra um obstáculo a uma velocidade de 65 km/h, por exemplo. Num piscar de olhos, o para-choque, a lataria, o capô, já estão amassados. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-wise" data-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#myModal1">
+         Segunda Colisão
+        </button>        
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">                
+                <h4 class="modal-title" id="myModalLabel">Segunda Colisão</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <p>O carro já está parado, mas as pessoas lá dentro (sem estar usando cinto) continuam a andar a 65 km/h até encontrarem alguma coisa que as faça parar: bancos, painel de instrumentos, volante da direção, para-brisa.Se isso não for o suficiente, podem até ser jogadas para fora do carro.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-wise" data-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#myModal2">
+         Terceira Colisão
+        </button>        
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">                
+                <h4 class="modal-title" id="myModalLabel">Terceira Colisão</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <p>As pessoas pararam, mas os órgãos internos ainda não: eles continuam “viajando” a uma velocidade de 65 km/h até se chocarem uns contra os outros, contra a caixa craniana ou contra os ossos, provocando fraturas, hemorragias, rupturas.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-wise" data-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="buttons-control">
+          <button class="btn btn-md btn-wise" routerLink="/course/inspection" routerLinkActive="active"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Voltar</button>
+          <button class="btn btn-md btn-wise" routerLink="/conclusion" routerLinkActive="active">Finalizar <i class="fa fa-check-circle-o" aria-hidden="true"></i> </button>
+        </div>
+      </div> 
+      <div class="bar2">
+        <h5 class="progresso"><i class="fa fa-rocket" aria-hidden="true"></i> Progresso</h5>
+        <p><ngb-progressbar type="success" [value]="66">66%</ngb-progressbar></p>
+      </div>     
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div id="login" class="container-fluid">
+  <div class="container">
+        <div class="form-signin">
+          <h4 class="form-signin-heading">Seja bem-vindo ao ambiente de avaliação</h4>
+          <p></p>
+          <label class="sr-only">Usuário : </label>
+          <input [(ngModel)]="usuario.nome" type="user" id="usuario" class="form-control" placeholder="Usuário" required="" autofocus="">
+          <label  class="sr-only">Senha: </label>
+          <input [(ngModel)]="usuario.senha" type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
+          <button class="btn btn-md btn-block btn-wise" type="submit" (click)="fazerLogin()">Acessar <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+        </div>
+  </div>
+</div>

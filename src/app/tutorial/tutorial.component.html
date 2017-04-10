@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="center-caro col-md-8 col-xs-12">
+      <h5>Tutorial</h5>
+      <hr class="white">
+      <ngb-carousel>
+        <template ngbSlide>
+          <img src="../assets/images/screen1.jpg" alt="Random first slide" class="img-carousel">
+          <div class="carousel-caption">
+            <h3>Acesse seus cursos rapidamente</h3>
+            <p>Basta logar para visualizar os cursos</p>
+          </div>
+        </template>
+        <template ngbSlide>
+          <img src="../assets/images/screen3.jpg"  alt="Random second slide" class="img-carousel">
+          <div class="carousel-caption">
+            <h3>Navegação</h3>
+            <p>Navegue pelo menu de controle e sumário</p>
+          </div>
+        </template>
+        <template ngbSlide>
+          <img src="../assets/images/screen4.jpg" alt="Random third slide" class="img-carousel">
+          <div class="carousel-caption">
+            <h3>Acompanhe seu progresso</h3>
+            <p>Com a barra de progresso você sabe exatamente sua evolução na plataforma</p>
+          </div>
+        </template>
+      </ngb-carousel>
+    </div>
+    <div class="col-md-12 col-xs-12">
+      <a class="btn-secondary btn-lg btn-tutorial" routerLink="/list" routerLinkActive="active">Ir para a plataforma <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>

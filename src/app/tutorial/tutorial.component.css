@@ -1,0 +1,65 @@
+ngb-carousel.carousel.slide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-carousel{
+    max-width: 100%;
+    height: auto !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-caro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: #011c2f;
+}
+a.btn-secondary.btn-lg.btn-tutorial {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+@media (max-width: 480px) {
+    .img-carousel{
+        display: none;
+    }
+    .carousel-caption{
+        position: relative;
+        right: 15%;
+        bottom: 20px;
+        left: 0%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        background: #011c2f;
+        font-size: 12px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+        padding: 18px;
+        text-align: center;
+    }
+    a.btn-secondary.btn-lg.btn-tutorial[_ngcontent-c1] {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 169px;
+        font-size: 12px;
+    }
+}

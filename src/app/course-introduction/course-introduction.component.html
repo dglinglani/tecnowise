@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-xs-12 bread-component">      
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/list" routerLinkActive="active">Lista de cursos</a></li>
+        <li class="breadcrumb-item active">Módulo - Cinto de segurança</li>
+      </ol>
+    </div> 
+    <div class="col-md-3 col-sm-12 col-xs-12 course-general-left">  
+      <h5><i class="fa fa-list-ol" aria-hidden="true"></i> Sumário</h5>
+      <a class="sumary-item active" routerLink="/course/introduction" routerLinkActive="active">1 - Introdução</a>
+      <a class="sumary-item" routerLink="/course/inspection" routerLinkActive="active">2 - Inspeção</a>
+      <a class="sumary-item" routerLink="/course/collisions" routerLinkActive="active">3 - Colisões</a>
+      <div class="bar1">
+        <h5 class="progresso"><i class="fa fa-rocket" aria-hidden="true"></i> Progresso</h5>
+        <p><ngb-progressbar type="success" [value]="0">0%</ngb-progressbar></p>
+      </div>
+    </div>
+    <div class="col-md-9 col-sm-12 col-xs-12">      
+      <div class="back-test">
+        <h4 class="title-module">Introdução do Módulo </h4>
+        <hr>
+        <p class="description">A função do cinto de segurança é limitar a movimentação dos ocupantes de um veiculo em caso de acidentes ou em uma freada brusca, protegendo-os, impedindo que as pessoas se choquem com as partes internas do veículo (painel, volante, para-brisa ou bancos dianteiros) ou sejam jogadas para fora dele.</p>
+        <p class="description">Ele impede que os ocupantes do veículo seja jogados uns contra os outros, alem de manter o motorista em sua posição, possibilitando que faça manobras defensivas evitando danos maiores.</p>
+        <hr>
+        <div class="buttons-control">          
+          <button class="btn btn-md btn-wise" routerLink="/course/inspection" routerLinkActive="active">Avançar <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </button>
+        </div>
+      </div>
+      <div class="bar2">
+        <h5 class="progresso"><i class="fa fa-rocket" aria-hidden="true"></i> Progresso</h5>
+        <p><ngb-progressbar type="success" [value]="0">0%</ngb-progressbar></p>
+      </div>
+    </div>
+  </div>
+</div>

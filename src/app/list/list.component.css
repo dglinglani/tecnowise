@@ -1,0 +1,36 @@
+#course-list{
+    border-radius: 4px;
+    padding: 5px;
+}
+h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+h5{ 
+    margin-top: 5px;
+    color: #011c2f !important; 
+}
+.img-course{
+    max-width: 100%;
+    margin: auto;
+    display: block;    
+}
+.item-course {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;    
+}
+.description {
+    font-size: 14px;
+}
+
+@media (min-width: 769px) 
+{
+  .item-course 
+   {
+    max-width: 30% !important;
+    margin: auto 1%;
+    display: block;
+    float: left;
+   }
+}
